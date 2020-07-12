@@ -1,0 +1,71 @@
+html {
+  position: relative;
+}
+#picture-of-me {
+  float: left;
+  width: 200px;
+  margin: 0 20px 10px 0;
+}
+
+
+.block {
+  padding: 30px;
+  margin: 30px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(173, 163, 163);
+  width: 100%;
+  height: 60px;
+}
+.footer1 {
+  height: 6px;
+  background-color: #4aaaa5;
+  margin-top: -10px;
+}
+.footer2 {
+  text-align: center;
+  padding: 15px;
+}
+.navbar {
+  background: white;
+  border: none;
+}
+.content-header,
+p {
+  font-weight: 900;
+  margin: 10px 10px 10px 10px;
+}
+
+main {
+  margin: 80px;
+}
+
+body {
+  background-image: url("Assets/background-image.PNG");
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.row {
+  margin: 20px auto;
+}
+
+#inputGroup-sizing,
+#inputGroup-sizing {
+  height: 350px;
+}
+
+.form-control {
+  border-radius: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.navbar-nav {
+  margin-left: 80%;
+}
+
+.input-group-text {
+  min-width: 100px;
+}
