@@ -1,21 +1,28 @@
 html {
   position: relative;
 }
-#picture-of-me {
+
+.picture-of-me {
   float: left;
   width: 200px;
   margin: 0 20px 10px 0;
 }
 
-
-.block {
-  padding: 30px;
-  margin: 30px;
+.picture-of-me:hover{
+	-webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.picture-of-me {
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
 }
 
 .footer {
   position: fixed;
   bottom: 0;
+  color:white;
   background-color: rgb(173, 163, 163);
   width: 100%;
   height: 60px;
